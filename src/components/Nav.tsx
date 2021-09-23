@@ -1,10 +1,10 @@
 const Nav = () =>{
     return(
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Google Drive Notes</a>
-            <a href="#">Articles</a>
-            <a href="#">Contact</a>
+            <a href="/home">Home</a>
+            <a href="/notes">Google Drive Notes</a>
+            <a href="/articles">Articles</a>
+            <a href="/contact">Contact</a>
         </nav>
     )
 }
