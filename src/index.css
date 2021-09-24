@@ -12,3 +12,16 @@ nav > a{
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.description{
+  display: block;
+}
+.date{
+  display: block;
+  margin-bottom: 1rem;
+}
+
+
+.articleTitle{
+  font-size: x-large;
+}
