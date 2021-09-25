@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Link, Redirect, useParams } from 'react-router-dom';
 import posts from '../posts.json';
@@ -11,6 +12,18 @@ const Article = () =>{
         return post.urlize === title;
     });
 
+    //Reload article page once on render to force scripts to be reloaded in index.html
+    useEffect(() =>{
+        //Prevent endless refresh loop using localstorage
+        if(localStorage.getItem('scriptRendered') === 'false'){
+            localStorage.setItem('scriptRendered', 'true');
+            window.location.reload();
+        }
+        else{
+            localStorage.setItem('scriptRendered', 'false');
+        }
+    }, []);
+    
     if(post){
         return(
             <div>
