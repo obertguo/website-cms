@@ -1,6 +1,7 @@
 body{
   max-width: 468pt;
   margin: 0 auto;
+  word-wrap: break-word;
 }
 
 nav{
@@ -20,7 +21,6 @@ nav > a{
   display: block;
   margin-bottom: 1rem;
 }
-
 
 .articleTitle{
   font-size: x-large;
