@@ -2,6 +2,7 @@ body{
   max-width: 468pt;
   margin: 0 auto;
   word-wrap: break-word;
+  min-height: 100%;
 }
 
 nav{
@@ -24,4 +25,42 @@ nav > a{
 
 .articleTitle{
   font-size: x-large;
+}
+
+.katex-display{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+
+.social{
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.social:first-of-type{
+  margin-left: 0;
+}
+
+
+footer > p{
+  text-align: center;
+}
+
+/*Force scrollbar to appear on mobile*/
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
 }

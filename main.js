@@ -40,6 +40,6 @@ var writePostsAndPagesDataToJSON = function () {
         };
         postList.push(post);
     });
-    fs.writeFileSync('./src/posts.json', JSON.stringify(postList));
+    fs.writeFileSync('./src/data/posts.json', JSON.stringify(postList));
 };
 writePostsAndPagesDataToJSON();

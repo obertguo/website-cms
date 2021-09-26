@@ -33,7 +33,7 @@ A set of points \\(P\\) for \\(i = 0, 1, 2,..., n\\) with \\(a = x_0 \lt x_1 \lt
 
 # Endpoint Approximations 
 ## Left-Endpoint Approximation 
-On each subinterval \\(x_{i-1}, x_i\\) for \\(i = 1, 2,..., n\\), construct a rectangle with a width \\(\Delta{x}\\) and a height equal to \\(f(x_{i-1})\\), which is the function value at the left endpoint of the subinterval. The area of the rectangle is \\(f(x_{i-1}) \Delta{x}\\). By adding the area of all the rectangles, an approximate area for \\(A\\) is generated. The notation \\(L_n\\) is used to denote that this is a **left-endpoint approximation** of \\(A\\) using \\(n\\) subintervals. 
+On each subinterval \\([x_{i-1}, x_i]\\) for \\(i = 1, 2,..., n\\), construct a rectangle with a width \\(\Delta{x}\\) and a height equal to \\(f(x_{i-1})\\), which is the function value at the left endpoint of the subinterval. The area of the rectangle is \\(f(x_{i-1}) \Delta{x}\\). By adding the area of all the rectangles, an approximate area for \\(A\\) is generated. The notation \\(L_n\\) is used to denote that this is a **left-endpoint approximation** of \\(A\\) using \\(n\\) subintervals. 
 
 $$
 A \approx L_n = f(x_0)\Delta{x} + f(x_1)\Delta{x} +...+ f(x_{n-1})\Delta{x}\\\\
@@ -42,7 +42,7 @@ $$
 ![Left-endpoint approximation](https://openstax.org/apps/archive/20210823.155019/resources/b8744a12877aa8d817a700ae3dfddb5fbfc0f4b7 "Left-endpoint approximation")
 
 ## Right-Endpoint Approximation
-On each subinterval \\(x_{i-1}, x_i\\) for \\(i = 1, 2,..., n\\), construct a rectangle with a width \\(\Delta{x}\\) and a height equal to \\(f(x_{i})\\), which is the function value at the right endpoint of the subinterval. The area of the rectangle is \\(f(x_{i}) \Delta{x}\\). By adding the area of all the rectangles, an approximate area for \\(A\\) is generated. The notation \\(R_n\\) is used to denote that this is a **right-endpoint approximation** of \\(A\\) using \\(n\\) subintervals. 
+On each subinterval \\([x_{i-1}, x_i]\\) for \\(i = 1, 2,..., n\\), construct a rectangle with a width \\(\Delta{x}\\) and a height equal to \\(f(x_{i})\\), which is the function value at the right endpoint of the subinterval. The area of the rectangle is \\(f(x_{i}) \Delta{x}\\). By adding the area of all the rectangles, an approximate area for \\(A\\) is generated. The notation \\(R_n\\) is used to denote that this is a **right-endpoint approximation** of \\(A\\) using \\(n\\) subintervals. 
 
 $$
 A \approx R_n = f(x_1)\Delta{x} + f(x_2)\Delta{x} +...+ f(x_{n})\Delta{x}\\\\

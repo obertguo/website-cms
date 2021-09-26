@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Link, Redirect, useParams } from 'react-router-dom';
-import posts from '../posts.json';
+import posts from '../data/posts.json';
 import { Post } from '../types';
 
 const Article = () =>{

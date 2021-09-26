@@ -5,11 +5,13 @@ import Articles from './pages/Articles';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import NotFound from './pages/404';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Nav/>
+
       <Switch>
         <Route path="/article/:title" exact>
           <Article/>
@@ -30,6 +32,8 @@ function App() {
           <Redirect to="/404"/>
         </Route>
       </Switch>
+
+      <Footer/>
     </div>
   );
 }

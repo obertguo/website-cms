@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import posts from '../posts.json';
+import posts from '../data/posts.json';
 import { Post } from '../types';
 
 const Articles = () =>{
@@ -13,11 +13,12 @@ const Articles = () =>{
                             <Link className="articleTitle" to={`/article/${post.urlize}`}>{post.title}</Link>
                             <span className="description">{post.description}</span>
                             <small className="date">Published {new Date(post.date).toLocaleDateString()}</small>
+                            <hr/>
                         </div>
                     )
                 })
             }
-            <hr/>
+            
         </div>
     );
 }

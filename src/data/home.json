@@ -1,0 +1,83 @@
+{
+    "social_media":
+    [
+        {
+            "url": "https://www.instagram.com/obertguo/",
+            "icon": "fab fa-instagram"
+        },
+        {
+            "url": "https://github.com/obertguo",
+            "icon": "fab fa-github"
+        },
+        {
+            "url": "https://obertguo.cf/contact/",
+            "icon": "far fa-envelope"
+        }
+    ],
+
+    "sections":
+    [
+        {
+            "title": "Programming",
+            "desc": "Languages and frameworks that I use:",
+
+            "list": 
+            [
+                "C++",
+                "C#",
+                "Java",
+                "Javascript (including usage of Node JS and Typescript)",
+                "Vue",
+                "React"
+            ],
+            "links": 
+            [
+                {
+                    "name":"Github", 
+                    "url": "https://github.com/obertguo"
+                },
+                {
+                    "name": "LeetCode Profile",
+                    "url": "https://leetcode.com/obertguo/"
+                },
+                {
+                    "name":"Project: LCSS Covid Bot", 
+                    "url": "https://github.com/obertguo/lcss-covid-bot"
+                },
+                {
+                    "name":"Project: Arduino LCD Library", 
+                    "url": "https://github.com/obertguo/1602-LCD"
+                }
+            ]
+        },
+
+        {
+            "title": "Math",
+            "desc": "I enjoy math contests, and I like to solve problems. Currently taking Calculus 1000 and 1301 at Western.",
+            "list": 
+            [
+                "Participated in CEMC math contests each grade year. (Recently listed on CEMC's Group IV Grade 11 Hypatia Honour Roll)",
+                "Participated in Kangaroo math contests." 
+            ],
+            "links": 
+            [
+                {
+                    "name": "2021 Hypatia Results",
+                    "url": "https://www.cemc.uwaterloo.ca/contests/past_contests/2021/2021FGHResults.pdf"
+                }
+            ]
+        },
+
+        {
+            "title": "Sports",
+            "desc": "Passionate badminton player:",
+            "list": 
+            [
+                "Second in Grade 9 TVRAA Junior Boys Doubles and qualified for WOSSAA",
+                "Participated in my school's senior badminton team in Grade 10 before COVID.",
+                "I have instructed younger kids to play badminton for the City of London, and at a private club"
+            ],
+            "links": null
+        }
+    ]
+}
