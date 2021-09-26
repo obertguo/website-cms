@@ -12,11 +12,7 @@ Let f(x) be a continuous, nonnegative function defined on a closed interval \[a,
 
 To approximate the area under the curve, a geometric approach can be used by dividing the area into smaller shapes that have known area formulas. The sum of the smaller areas will represent an approximation of the true area. 
 
-
-
 The easiest and most well-known approach is to divide the interval \[a,b] into n subintervals of equal width.
-
-
 
 $$
 
@@ -29,8 +25,6 @@ $$
 \text{ and } x_0 = a, x_n = b
 
 $$
-
-
 
 Thus, the location of each point can be represented as 
 
